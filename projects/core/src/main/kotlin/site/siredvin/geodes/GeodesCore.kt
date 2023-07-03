@@ -20,7 +20,6 @@ object GeodesCore {
             .displayItems { _, output ->
                 ModPlatform.holder.blocks.forEach { output.accept(it.get()) }
                 ModPlatform.holder.items.forEach { output.accept(it.get()) }
-                ModCommonHooks.registerUpgradesInCreativeTab(output)
             }
     }
 
