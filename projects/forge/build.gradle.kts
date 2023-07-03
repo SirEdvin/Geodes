@@ -17,7 +17,6 @@ forgeShaking {
     useAT.set(true)
     extraVersionMappings.set(
         mapOf(
-            "computercraft" to "cc-tweaked",
             "peripheralium" to "peripheralium",
         ),
     )

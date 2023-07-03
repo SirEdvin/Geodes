@@ -1,37 +1,30 @@
 modLoader="kotlinforforge"
 loaderVersion="[4,)"
 
-issueTrackerURL="https://github.com/SirEdvin/TemplateProject/issues"
+issueTrackerURL="https://github.com/SirEdvin/Geodes/issues"
 logoFile="pack.png"
 
 license="MIT"
 
 [[mods]]
-modId="template"
+modId="geodes"
 version="${file.jarVersion}"
-displayName="Template"
-displayURL="https://github.com/SirEdvin/TemplateProject/"
+displayName="Geodes"
+displayURL="https://github.com/SirEdvin/Geodes"
 
 credits=""
 authors=""
 description='''
 '''
 
-[[dependencies.template]]
+[[dependencies.geodes]]
 modId="forge"
 mandatory=true
 versionRange="[${forgeVersion},48)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.template]]
-modId="computercraft"
-mandatory=true
-versionRange="[${computercraftVersion},)"
-ordering="NONE"
-side="BOTH"
-
-[[dependencies.template]]
+[[dependencies.geodes]]
 modId="peripheralium"
 mandatory=true
 versionRange="[${peripheraliumVersion},)"
